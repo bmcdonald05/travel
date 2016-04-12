@@ -1,0 +1,26 @@
+<h1>Welcome to my Travel Site</h1>
+<p>This is my very awesome travel site.</p>
+<%= @homeland %>
+<ul>
+	<% @countries.each do |country| %>
+		<li>
+			<%= country %>
+		</li>
+	<% end %>
+</ul>
+
+<ul>
+	<%= image_tag "chile.jpg", class: "image", height: 300, width: 400 %>
+	<%= image_tag "croatia.jpg", class: "image", height: 300, width: 400 %>
+</ul>
+<ul>
+	<%= image_tag "winter.jpg", class: "image", height: 300, width: 400 %>
+	<%= image_tag "tropical.jpg", class: "image", height: 300, width: 400 %>
+</ul>
+<ul>
+	<% @places.each do |places| %>
+	<li>
+		<%= image_tag places %>
+	</li>
+	<% end %>
+</ul>
