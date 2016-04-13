@@ -9,7 +9,7 @@ body {
 }
 
 .container{
-	background: rgba(255, 255, 255, 0.6);
+	background: rgba(255, 255, 255, 0.5);
 }
 .navbar-default .navbar-brand {
   font-family: 'Roboto Condensed', cursive;
